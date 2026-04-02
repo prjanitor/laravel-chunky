@@ -103,8 +103,7 @@ class ChunkySettings
      */
     public function defaultIndex(): int
     {
-        return Arr::get($this->config, 'index', self::INDEX_ZERO)
-            ?: self::INDEX_ZERO;
+        return Arr::get($this->config, 'index', self::INDEX_ZERO);
     }
 
     /**
